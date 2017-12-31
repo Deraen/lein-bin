@@ -1,0 +1,37 @@
+{
+  "name": "lein-bin",
+  "version": "0.1.0",
+  "description": "Binary wrapper for Lein",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf vendor && node cli.js version",
+    "lein": "node cli.js version"
+  },
+  "bin": {
+    "lein": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deraen/lein-bin"
+  },
+  "bugs": {
+    "url": "https://github.com/deraen/lein-bin/issues"
+  },
+  "homepage": "https://github.com/deraen/lein-bin",
+  "author": {
+    "name": "Juho Teperi",
+    "email": "juho.teperi@iki.fi"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bin-wrapper": "^3.0.2"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "binary",
+    "clojure",
+    "lein"
+  ]
+}
